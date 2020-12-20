@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Agency';
+  src: url('../AgencyFBBoldCondensed.ttf');
+}
+
+.logo {
+  font-family: 'Agency';
+}
+
+.one {
+  background-color: #d3fcd0; //alternate green - 83bd75
+  height: 60vh;
+}
+
+.bod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bag {
+  height: 50vh;
+  width: 500px;
+  background-image: url('../img/bag.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10vw;
+}
+
+.brown-button {
+  background-color: #bdad75 !important;
+  border-color: #bdad75 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.why-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.why img {
+  max-width: 50%;
+}
+
+.popular-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 4vw;
+}
+
+.popular {
+  border: 2px solid #bd7575;
+  border-radius: 10px;
+}
+
+.popular img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1vh;
+  display: block;
+}
+
+@import '../node_modules/bulma/bulma.sass';
