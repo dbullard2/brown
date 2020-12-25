@@ -30,6 +30,15 @@
   margin-right: 10vw;
 }
 
+.bag-mobile {
+  background-image: url('../img/bag.png');
+  width: 100%;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .brown-button {
   background-color: #bdad75 !important;
   border-color: #bdad75 !important;
@@ -61,7 +70,7 @@
 }
 
 .popular {
-  border: 2px solid #bd7575;
+  border: 4px solid #bd7575;
   border-radius: 10px;
 }
 
