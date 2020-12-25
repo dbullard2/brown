@@ -62,6 +62,16 @@
   max-width: 50%;
 }
 
+.reason {
+  height: 30vh;
+}
+
+.reason img {
+  max-height: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
 .popular-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
